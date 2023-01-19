@@ -19,6 +19,7 @@ namespace Task8.Subtask6.Problem2
             {
                 DirectoryInfo dirInfo = new DirectoryInfo(path);
                 long size = Getsize(dirInfo);
+                Console.WriteLine($"размер папки {dirInfo.Name} {size} байт");
             }
             else Console.WriteLine("Папка по данному пути не найдена.");
             Console.ReadLine();
